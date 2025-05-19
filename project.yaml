@@ -5,7 +5,10 @@ basic:
         - 1024
         - 1200
     pages:
-        - 'https://gf'
+        - 'https://Lenovo%20A9.7%22)%20Landscape:'
+        - 'https://-%20Width:%201280px'
+        - 'https://-%20Height:%20800px'
+        - 'https://-%20Mode%20:%20Landscape%22'
     monitoring:
         days: {  }
         type: ''
@@ -24,7 +27,8 @@ advanced:
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content: ''
+    mock_content:
+        - { selector: '', type: title }
     performance:
         workers_production: 30
         workers_nonproduction: 10
